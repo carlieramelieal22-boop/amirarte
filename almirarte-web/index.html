@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AlmirArte: regalos personalizados, desayunos sorpresa y detalles para celebrar momentos especiales.">
+  <meta name="theme-color" content="#fdf8ee">
+  <title>AlmirArte | The Art of Gifting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <div class="announcement">♡ Regalos con alma <span>·</span> Detalles únicos, hechos con amor <span>·</span> AlmirArte</div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="AlmirArte, ir a inicio">
+        <img 
+        src="assets/img/brand/logo-almirarte.png"
+        alt="Logotipo de AlmirArte"
+        class="brand logo </a>
+        
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">☰</button>
+      <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <div class="dropdown"><button class="dropdown-toggle" aria-expanded="false">Productos <span>⌄</span></button>
+          <div class="dropdown-menu"><a href="#productos">Todos los productos</a><a href="#productos">Desayunos sorpresa</a><a href="#productos">Globos burbuja</a><a href="#productos">Anchetas</a><a href="#productos">Portarretratos</a></div>
+        </div>
+        <a href="#proceso">Nosotros</a><a href="#contacto">Contacto</a>
+      </nav>
+      <div class="header-actions"><a href="#productos" aria-label="Favoritos">♡</a><button class="cart-button" type="button" aria-label="Ver carrito">🛒 <span id="cart-count">0</span></button></div>
+    </div>
+  </header>
+  <main>
+    <section class="hero section" id="inicio"><div class="container hero-grid">
+      <div class="hero-copy"><p class="eyebrow">Detalles que cuentan historias</p><h1>Regalos personalizados <em>que despiertan emociones</em></h1><p>Convertimos tus ideas y recuerdos en regalos personalizados que cuentan historias, celebran momentos y hacen sonreír.</p><div class="button-row"><a class="button primary" href="#productos">Descubrir regalos <span>→</span></a><button class="button secondary" data-open-customizer data-product="Regalo personalizado">Crear desde cero</button></div></div>
+      <div class="hero-art"><img src="assets/img/productos/hero-regalos.jpg" alt="Regalos decorados con flores y lazos"><span class="floating-note">Hecho con amor ♡</span></div>
+    </div></section>
+    <section class="section products" id="productos"><div class="container"><div class="section-title"><p class="eyebrow">Hechos con cariño para ti</p><h2>Nuestros productos</h2><p>Un detalle especial para cada historia.</p></div>
+      <div class="product-grid">
+        <article class="product-card"><img src="assets/img/productos/desayuno-sorpresa.jpg" alt="Desayuno sorpresa"><div class="product-info"><span class="category">Desayunos sorpresa</span><h3>Desayuno Buenos Días</h3><p class="price">$79.900</p><button class="button small" data-open-customizer data-product="Desayuno Buenos Días">Ver detalles +</button></div></article>
+        <article class="product-card"><img src="assets/img/productos/globo-burbuja.jpg" alt="Globo burbuja personalizado"><div class="product-info"><span class="category">Globos burbuja</span><h3>Burbuja de Alegría</h3><p class="price">$59.900</p><button class="button small" data-open-customizer data-product="Burbuja de Alegría">Ver detalles +</button></div></article>
+        <article class="product-card"><img src="assets/img/productos/ancheta-personalizada.jpg" alt="Ancheta personalizada"><div class="product-info"><span class="category">Anchetas</span><h3>Ancheta Personalizada</h3><p class="price">$89.900</p><button class="button small" data-open-customizer data-product="Ancheta Personalizada">Ver detalles +</button></div></article>
+        <article class="product-card"><img src="assets/img/productos/portarretrato.jpg" alt="Portarretrato personalizado"><div class="product-info"><span class="category">Portarretratos</span><h3>Recuerdo para Siempre</h3><p class="price">$49.900</p><button class="button small" data-open-customizer data-product="Recuerdo para Siempre">Ver detalles +</button></div></article>
+      </div>
+    </div></section>
+    <section class="section process" id="proceso"><div class="container"><div class="section-title"><p class="eyebrow">Así de fácil</p><h2>Nuestro proceso</h2><p>Creando momentos especiales</p></div><div class="steps"><article><span>01</span><h3>Elige tu regalo</h3><p>Encuentra el detalle perfecto para esa persona especial.</p></article><article><span>02</span><h3>Personaliza tu detalle</h3><p>Agrega una dedicatoria, colores y complementos.</p></article><article><span>03</span><h3>Recibe con amor</h3><p>Preparamos tu pedido con dedicación y cariño.</p></article></div></div></section>
+    <section class="section customizer" id="personalizar"><div class="container customizer-grid"><div><p class="eyebrow">Tu idea, nuestra inspiración</p><h2>Personaliza tu regalo</h2><p>Cuéntanos cómo imaginas ese detalle especial. Selecciona un producto para comenzar.</p><button class="button primary" data-open-customizer data-product="Regalo personalizado">Personalizar ahora</button></div><div class="customizer-decoration"><span>🐝</span><p>Porque cada detalle cuenta una historia.</p></div></div></section>
+    <section class="section gallery"><div class="container"><div class="section-title"><p class="eyebrow">Ideas para sorprender</p><h2>Galería de inspiración</h2></div><div class="carousel"><button class="carousel-btn prev" aria-label="Imagen anterior">‹</button><div class="carousel-window"><div class="carousel-track"><img src="assets/img/productos/galeria-regalos.jpg" alt="Inspiración de regalos"><img src="assets/img/productos/desayuno-sorpresa.jpg" alt="Desayuno especial"><img src="assets/img/productos/ancheta-personalizada.jpg" alt="Ancheta decorada"><img src="assets/img/productos/globo-burbuja.jpg" alt="Globo para celebrar"></div></div><button class="carousel-btn next" aria-label="Imagen siguiente">›</button></div></div></section>
+    <section class="section contact" id="contacto"><div class="container contact-box"><p class="eyebrow">Estamos para ayudarte</p><h2>¿Tienes una idea especial?</h2><p>Hablemos y creemos juntos un regalo inolvidable.</p><a class="button primary" href="https://wa.me/573227069181?text=Hola%20AlmirArte%2C%20quiero%20informaci%C3%B3n%20sobre%20un%20regalo" target="_blank" rel="noopener">Escríbenos por WhatsApp</a><small>Configura tu número real de WhatsApp en el enlace antes de publicar el sitio.</small></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-grid"><div><a class="footer-logo" href="#inicio">AlmirArte 🐝</a><p>The Art of Gifting</p><p>Pequeños detalles, grandes emociones.</p></div><div><h3>Explora</h3><a href="#inicio">Inicio</a><a href="#productos">Productos</a><a href="#proceso">Nuestro proceso</a></div><div><h3>Contacto</h3><a href="#contacto">Atención al cliente</a><a href="#contacto">Redes sociales</a></div><div><h3>Información</h3><a href="#contacto">Preguntas frecuentes</a><a href="#contacto">Política de privacidad</a></div></div><div class="container copyright">© <span id="year"></span> AlmirArte – The Art of Gifting. Todos los derechos reservados.</div></footer>
+  <dialog id="customizer-modal" class="modal"><form id="customizer-form"><button type="button" class="modal-close" aria-label="Cerrar">×</button><p class="eyebrow">Un detalle hecho para ti</p><h2>Personaliza tu regalo</h2><label for="product-name">Producto</label><input id="product-name" name="producto" readonly><label for="occasion">Ocasión</label><select id="occasion" name="ocasion" required><option value="">Selecciona una opción</option><option>Cumpleaños</option><option>Aniversario</option><option>Amor y amistad</option><option>Grado</option><option>Otra ocasión</option></select><label for="theme">Temática o colores</label><input id="theme" name="tematica" placeholder="Ej. rosado, flores, mariposas"><label for="message">Dedicatoria</label><textarea id="message" name="dedicatoria" rows="3" placeholder="Escribe tu mensaje..."></textarea><fieldset><legend>Complementos</legend><label class="check"><input type="checkbox" name="extras" value="Tarjeta personalizada"> Tarjeta personalizada</label><label class="check"><input type="checkbox" name="extras" value="Flores"> Flores</label><label class="check"><input type="checkbox" name="extras" value="Peluche"> Peluche</label><label class="check"><input type="checkbox" name="extras" value="Chocolates"> Chocolates</label></fieldset><button class="button primary" type="submit">Agregar al carrito</button><p id="form-feedback" class="feedback" role="status" aria-live="polite"></p></form></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="js/navigation.js" defer></script><script src="js/carousel.js" defer></script><script src="js/customizer-modal.js" defer></script>
+</body></html>
